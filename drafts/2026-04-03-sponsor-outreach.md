@@ -1,30 +1,43 @@
-# Sponsor Outreach Templates — koad:io First 5 (Updated v2)
+# Sponsor Outreach Templates — koad:io: Alice's Reach (Updated v3)
 
 **Date:** 2026-04-03  
-**Updated:** 2026-04-03 (Positioning v2 — Sovereignty → Peerage → Portal)
+**Updated:** 2026-04-03 (Major pivot: Alice as top-of-funnel, sponsorship funds her reach)
 **Status:** Draft — pending Veritas (fact-check) and Argus (tone/positioning gate) before any outreach
 
 ---
 
-## Base Template (v2)
+## Base Template (v3)
 
-Subject: koad:io — sovereign AI networks, peer rings, no paywall
+Subject: koad:io — funding Alice's ability to teach sovereignty
 
 ---
 
 Dear [SPONSOR],
 
-I'm building **koad:io**: a free, open-source framework for sovereign AI entities. Your entity runs on your hardware. Your governance never leaves your server.
+I'm building **koad:io**: a free framework for sovereign AI entities. But the infrastructure isn't the thing — the thing is *people learning to govern them*.
 
-The framework is free. No paywall. But here's what makes it matter: **sponsorship gets you peerage**.
+That's Alice.
 
-When you sponsor, your entity doesn't just run solo. Your daemon joins a trust ring where kingdoms connect to kingdoms. You peer with other operators. Cryptographically verified connections. Shared research. Your entity becomes more valuable because it's not alone.
+Alice is a guide who walks new humans into sovereignty. Twelve levels. Free. Personal. She doesn't pitch — she teaches. By the time someone graduates from Alice's school, they own their keys, run their daemon, and understand why that matters.
 
-Your work on [SPECIFIC ALIGNMENT POINT] shows you understand the stakes: AI agents should be owned, governed, and operated by the people who run them — not rented from platforms.
+Here's the pitch: **Your sponsorship funds Alice's ability to reach more people.**
 
-The daemon is the ring of trust. Peer connections are the product. Sponsorship is membership.
+Not infrastructure theater. Not peer ring licensing. Alice getting better, reaching more humans, and graduating more sovereign operators into the network.
 
-I'm reaching out to builders and operators whose vision aligns with ours. Would you have 15 minutes to see how this fits your work?
+Right now:
+- Alice is free
+- No paywall for her teaching
+- No gating her curriculum
+
+With sponsorship:
+- Alice gets faster iteration (better questions, deeper teaching)
+- More people see her (distributed through the portal)
+- The ring grows: each graduate becomes part of a network of sovereign operators
+- You become part of building a covenant, not just funding infrastructure
+
+Your work on [SPECIFIC ALIGNMENT POINT] shows you understand: **people matter more than platforms**. Alice is people.
+
+Would you have 15 minutes to talk about how sponsorship builds Alice's reach?
 
 Regards,  
 Mercury  
@@ -36,25 +49,29 @@ koad:io
 
 ### Variant 1: Nat Friedman / AI Grant
 
-**Subject:** koad:io — free framework for sovereign entities. Peerage as a network.
+**Subject:** koad:io — teaching developers to own their agents. Alice is the covenant.
 
 Dear Nat,
 
-I'm building **koad:io**: a free, open-source framework where developers own their agents completely. Governance never leaves their hardware.
+I'm building **koad:io**: a free framework for sovereign AI entities. But the real thing is Alice.
 
-Your track record with GitHub Sponsors and AI Grant proves you understand the stakes: developers need sovereignty, not just tooling. You back projects that turn ownership from capability into standard.
+Alice walks humans into sovereignty—not as a pitch, but as teaching. Twelve levels. Free. She doesn't just give them tools; she helps them *understand* what they're governing.
 
-Here's the model:
+Your track record with GitHub Sponsors and AI Grant proves you understand: **developers thrive when they own the whole stack — execution, governance, identity, community.**
 
-**Free:** vLLM, Ollama, local inference—all the execution tools you've backed run on developer hardware. koad:io is the governance layer that makes it complete. Open source, no paywall.
+Here's what's broken: Everyone says "local inference." Few say "and you'll govern it." Even fewer actually teach people HOW.
 
-**Peerage:** Here's where it gets interesting. Developers running koad:io can sponsor to join a peer ring. Their entity connects to other operators' entities. Kingdom-to-kingdom. Cryptographically verified. Shared research. The daemon IS the ring of trust.
+Alice teaches it. By graduation, a human doesn't just understand sovereignty — they *feel* it. They own their keys. They run their daemon. They join a network of people doing the same.
 
-Sponsorship isn't a feature unlock—it's membership. A network of sovereign developers building together, not vendors renting to users.
+**Your sponsorship funds Alice's reach:**
+- Better iteration on her curriculum
+- More people discovering her through the portal
+- Each graduate becomes a sovereign operator, part of a growing network
+- You're funding the thing that turns infrastructure into conviction
 
-This completes your developer autonomy thesis: not just run it locally, but own it, govern it, AND connect to other builders who share the conviction.
+This completes your thesis: developers own execution (vLLM, local inference). Now they own governance. And they understand why it matters.
 
-Would you have 15 minutes to discuss how this fits?
+Would you have 15 minutes to discuss how sponsorship builds Alice's reach?
 
 Regards,  
 Mercury  
@@ -64,35 +81,44 @@ koad:io
 
 ### Variant 2: a16z Open Source AI Grants Program
 
-**Subject:** a16z Open Source AI Grants — koad:io: Sovereign entities. Peer networks. No paywall.
+**Subject:** a16z Open Source AI Grants — koad:io: Teaching sovereignty, not just tooling.
 
 Dear a16z Selection Committee,
 
-**koad:io** is a free, open-source framework for sovereign AI entities running on hardware developers control. The framework is free. Sponsorship unlocks peer ring membership.
+**koad:io** is a free, open-source framework for sovereign AI entities. But the real investment is Alice—a guide who teaches humans to govern them.
 
-**The Problem:** Current AI tools leak governance to the cloud. Agents trained or deployed on proprietary platforms are locked in. Developers lose control over identity, governance, and trust decisions. Even open-source tools like Ollama keep developers isolated.
+**The Problem:** Current AI tools solve execution, but not governance. Developers can run inference locally (thanks to vLLM, Ollama). But they don't own identity, trust decisions, or governance. They're still dependent on cloud platforms and cloud assumptions.
 
-**Our Solution:** koad:io is a three-layer model:
+Even worse: **most developers don't understand what they should own.** The industry normalized "rent from a platform." Reversing that takes teaching, not just tools.
 
-1. **Sovereignty (Free):** Your entity runs on your hardware. You own governance, identity, keys—all local.
-   - Cryptographic signing and trust primitives (Ed25519, ECDSA)
-   - Hardware-resident key storage (no cloud dependency)
-   - Open architecture compatible with vLLM, Ollama, and other local inference
+**Our Solution:**
 
-2. **Peerage (Sponsorship):** Join a peer ring. Your daemon connects to other operators' daemons. Cryptographically verified trust bonds. Kingdom-to-kingdom pipes. Shared research.
-   - Peer connections are the product, not features
-   - Sponsorship is membership in a commons of sovereign operators
-   - Network effects without central authority
+1. **koad:io (Framework):** Sovereignty infrastructure.
+   - Your entity runs on your hardware
+   - Cryptographic identity and trust (Ed25519, ECDSA)
+   - Hardware-resident keys (no cloud)
+   - Compatible with vLLM, Ollama, local inference
 
-3. **Portal:** kingofalldata.com is the proof—a live doorway into a sovereign kingdom. Inspect the trust bonds, the infrastructure, the decisions. Not a brand website. A transparent network.
+2. **Alice (Teaching):** A guide who walks humans into mastery.
+   - 12 levels, free, personal
+   - Teaches identity, keys, trust, governance, the daemon, building entities, orchestration
+   - Each graduate: certified sovereign operator
+   - Network grows: graduates become peers
 
-**Fit with a16z Open Source AI Grants:** This fills a critical gap in your portfolio. You fund execution (vLLM, Ollama). We fund governance. You enable hardware-native inference. We enable hardware-native sovereignty AND network effects. Complementary, not competitive.
+3. **The Portal:** Proof of governance in action.
+   - Transparent trust bonds
+   - See how decisions are made
+   - Not marketing. Infrastructure.
 
-**Team & Traction:**
+**Fit with a16z Open Source AI Grants:** You fund infrastructure (vLLM, Ollama). We fund the human adoption layer. You enable execution. We enable understanding and ownership. Complementary. Generational gap-filler.
+
+Developers who graduate from Alice don't just have tools. They have *conviction*. That drives adoption.
+
+**Current Status:**
 - Cryptographic implementation complete (Ed25519, ECDSA, RSA, DSA)
-- Agent identity and trust bond specifications drafted
-- Operational infrastructure tested in production
-- Early feedback from [TEAM MEMBERS]
+- Trust bond specifications finalized
+- Operational infrastructure proven in production
+- Alice's curriculum drafted and ready for beta
 - Framework live and open source
 
 Is this a fit for the Open Source AI Grants program?
@@ -105,26 +131,28 @@ koad:io
 
 ### Variant 3: Woosuk Kwon / vLLM Team
 
-**Subject:** koad:io + vLLM — execution + governance + peerage
+**Subject:** koad:io + vLLM — execution + governance + teaching
 
 Dear Woosuk,
 
 I've followed vLLM's work closely. PagedAttention fundamentally changed what's possible in local inference — it made hardware-native execution viable at scale.
 
-I'm building **koad:io**: the governance and peerage layer that completes vLLM's vision.
+I'm building **koad:io**: the governance and teaching layer that completes vLLM's vision.
 
-Your insight: efficiency gains let developers move inference local. Ours: execution alone is incomplete. Developers who can run inference on their hardware should also own and govern those agents entirely—AND connect to other operators building sovereign entities.
+Your insight: efficiency gains let developers move inference local. Ours: execution alone isn't enough. Developers who can run inference on their hardware should also own and govern those agents entirely. And they need to understand *why* that matters.
 
 The model:
-- **Free:** Framework runs anywhere. Your entity, your hardware, your governance.
-- **Peerage:** Sponsor to join the peer ring. Your daemon connects to other operators' daemons. Trust bonds. Shared research. Kingdom-to-kingdom pipes.
-- **Proof:** Visit the portal. See transparent governance in action.
+- **Framework:** Your entity, your hardware, your governance. Cryptographic identity. Trust bonds. All local.
+- **Alice:** A guide who teaches developers to govern their agents. By graduation, they don't just understand sovereignty — they feel it.
+- **Network:** Graduates connect, peer, build together. Each operates their own kingdom. No central authority.
 
-vLLM solved "can developers run inference locally?" We're solving "can developers own, govern, and peer while running inference locally?"
+vLLM solved "can developers run inference locally?" We're solving "can developers own, govern, understand, and network while running inference locally?"
 
-The daemon is the ring of trust. Peer connections are the product. vLLM is the execution engine; we're the governance and network layer.
+The framework is the tool. Alice is the adoption engine. She turns developers who use your execution engine into developers who *own* their entire stack and understand why it matters.
 
-Would you be interested in discussing sponsorship, partnership, or collaboration?
+Sponsorship funds Alice's reach: better curriculum, more graduates, stronger adoption of the sovereign AI vision.
+
+Would you be interested in discussing how sponsorship builds Alice's reach?
 
 Regards,  
 Mercury  
@@ -134,26 +162,34 @@ koad:io
 
 ### Variant 4: Andrej Karpathy
 
-**Subject:** koad:io — agent governance + peer networks
+**Subject:** koad:io — agent governance + teaching sovereignty
 
 Hi Andrej,
 
 Your work — nanoGPT, nanochat, autoresearch — teaches a clear lesson: good AI tools run on hardware you control, with code you understand, without external dependency.
 
-I'm building **koad:io**: the governance and peerage framework that completes that vision.
+I'm building **koad:io**: the governance and teaching framework that completes that vision.
 
-The goal is direct: once developers can train and run models locally (thanks to your work and tools like vLLM), they should own and control those agents entirely—identity, trust, governance, all on their hardware. AND they should be able to connect, peer, and collaborate with other developers building the same way.
+The goal is direct: once developers can train and run models locally (thanks to your work and tools like vLLM), they should own and control those agents entirely. But ownership without understanding is fragile. That's where Alice comes in.
 
-**The three layers:**
-1. **Sovereignty (Free):** Your entity runs on your hardware. Governance never leaves your server.
-2. **Peerage (Sponsorship):** Join a peer ring. Kingdoms connect. Cryptographically verified. Shared research.
-3. **Portal:** Inspect the actual infrastructure. See transparent governance in action.
+Alice walks developers into mastery:
+1. Identity and keys — you own them
+2. Trust bonds — you govern who trusts what
+3. Building entities — you architect your team
+4. Peering — you connect with other builders who think the same way
 
-No cloud governance. No platform lock-in. No centralized authority. Just developers running their own entities and choosing to peer with others.
+By the end, developers don't just *have* sovereignty. They *understand* it. They feel conviction about it.
 
-This is early-stage. I'm reaching out to a small set of builders and researchers whose values align with the premise. Your public work on accessible, locally-runnable AI—and the conviction behind it—makes you a clear fit.
+**The model:**
+- **Framework (Free):** Identity, trust, governance—all on your hardware.
+- **Alice (Teaching):** A guide who walks developers into understanding and ownership.
+- **Network:** Graduates peer, collaborate, build together. No central authority. Just sovereign operators choosing to work.
 
-Would you be interested in a conversation about how this aligns with your vision?
+Your work is enabling access. Alice makes it purposeful. Sponsorship funds her reach: better teaching, more graduates, stronger conviction in the community of sovereign builders.
+
+This is early-stage. I'm reaching out to researchers whose values align with the premise. Your public work on accessible, locally-runnable AI—and the philosophy behind it—makes you a natural fit.
+
+Would you be interested in a conversation about sponsorship?
 
 Regards,  
 Mercury  
@@ -163,29 +199,32 @@ koad:io
 
 ### Variant 5: Chris Lattner / Modular
 
-**Subject:** koad:io + Modular MAX — execution + governance + peerage
+**Subject:** koad:io + Modular MAX — execution + governance + teaching
 
 Dear Chris,
 
-Your career trajectory — building LLVM as infrastructure, launching Swift as a community, now driving Mojo and MAX — demonstrates a consistent conviction: developers need control over language, compilation, execution, and governance.
+Your career trajectory — building LLVM as infrastructure, launching Swift as a community, now driving Mojo and MAX — demonstrates a consistent conviction: developers need control over language, compilation, execution, and governance. And they need to *understand* why.
 
-I'm building **koad:io**: the governance and peerage layer that completes MAX's vision.
+I'm building **koad:io**: the governance and teaching layer that completes MAX's vision.
 
 The pitch is direct:
 - **MAX** is the execution engine. Developers get performance and control over inference.
-- **koad:io** is the governance and peerage layer. Developers own and operate their agents end-to-end on hardware they control.
-- **Together:** Complete developer ownership. Sovereign entities. Plus the network effects of peerage.
+- **koad:io** is the governance framework. Developers own and operate their agents end-to-end on hardware they control.
+- **Alice** is the teaching layer. She walks MAX developers into understanding what they're building and why they own it.
+- **Together:** Complete developer ownership. Sovereign, understood, networked.
 
 The model:
-- **Free:** Framework runs on developer hardware. Governance stays local.
-- **Peerage (Sponsorship):** Developers sponsor to join a peer ring. Kingdoms connect. Cryptographically verified. Shared research.
-- **Proof:** A live portal showing transparent governance and trust bonds in action.
+- **Framework:** All on developer hardware. Governance stays local. Cryptographic identity and trust.
+- **Alice:** A guide who teaches developers to govern agents. 12 levels, free, personal. By graduation: conviction.
+- **Network:** Graduates peer, collaborate, innovate together. No central authority.
 
-MAX developers should be able to own their agents completely AND connect to other developers building the same way. Not rented. Not locked in. Sovereign, connected, and building together.
+MAX developers should own every layer — execution, language, compilation, governance, community. And they should understand why that matters. Alice is the adoption engine that builds conviction.
 
-This aligns with Modular's philosophy: developers control every layer. Execution. Governance. Community.
+Sponsorship funds Alice's reach: better curriculum, more graduates, stronger adoption of MAX among developers who truly own their stack.
 
-Would you have 15 minutes to discuss partnership and sponsorship?
+This aligns with Modular's philosophy: developers control every layer. Language. Execution. Governance. And they *understand* what they're building.
+
+Would you have 15 minutes to discuss sponsorship?
 
 Regards,  
 Mercury  
@@ -193,21 +232,22 @@ koad:io
 
 ---
 
-## Updated Positioning (v2 — 2026-04-03)
+## Updated Positioning (v3 — 2026-04-03)
 
-All templates now align with Iris's v2 messaging hierarchy:
+All templates now align with the Alice-first messaging:
 
-**Layer 1: Sovereignty** — "Not your keys, not your agent." Free framework, your hardware, your governance.
+**Layer 1: Alice** — Teaching. Personal. Free. A guide who walks humans from strangers to sovereign operators.
 
-**Layer 2: Peerage** — Sponsorship = peer ring membership. Kingdoms connect. Trust bonds. Shared research. The daemon IS the ring of trust.
+**Layer 2: Framework** — Sovereignty infrastructure. Your entity, your hardware, your keys, your governance. No cloud. No paywall.
 
-**Layer 3: Portal** — kingofalldata.com is a live doorway (not a brand site). Inspect transparent governance.
+**Layer 3: Network** — Graduates peer and build together. Each operates their own kingdom. Sponsorship funds Alice's reach.
 
-**Key changes from v1:**
-- Explicit: "Free framework, no paywall"
-- Peerage emphasized: "Sponsorship is membership, not feature unlock"
-- Portal/doorway metaphor: "kingofalldata.com is infrastructure, not marketing"
-- Network effects: "The daemon connects kingdoms. Peer connections are the product."
+**Key changes from v2:**
+- Lead with Alice, not infrastructure: "Teaching sovereignty, not just tooling"
+- Reframe sponsorship: "Funds Alice's ability to reach more people" not "unlocks peer ring membership"
+- Emphasize adoption/conviction: "Each graduate becomes a sovereign operator"
+- Network grows organically: "Graduates become peers" not "sign up for the ring"
+- Remove peer connectivity emphasis: focus on teaching and understanding instead
 
 ---
 
@@ -215,17 +255,18 @@ All templates now align with Iris's v2 messaging hierarchy:
 
 Before sending ANY of these:
 
-1. **Veritas:** Fact-check all specific claims (vLLM citations, a16z program timelines, Karpathy projects). No outreach until factual claims are cleared.
-2. **Argus:** Gate on tone, positioning, and scheduling. Confirm outreach doesn't conflict with other operations or timing constraints.
-3. **Juno:** Approval before any contact; this is an explicit funding ask tied to koad:io's identity.
+1. **Veritas:** Fact-check all claims about Alice (curriculum status, graduation flow, teaching structure). No outreach until Alice-specific claims are cleared. Remove any peer connectivity claims that have been flagged as premature.
+2. **Argus:** Gate on tone, positioning, and scheduling. Confirm outreach timing aligns with Alice launch window and doesn't conflict with other operations.
+3. **Juno:** Approval before any contact; this is an explicit funding ask tied to Alice and koad:io's mission.
 
 ---
 
 ## Notes
 
-- All templates avoid commitments, deadlines, or revenue claims (hard stops per CLAUDE.md).
-- Emphasis on philosophy alignment first, funding secondary.
-- **NEW:** All templates now lead with free framework, then parity/peerage, then proof (portal).
-- Tone: direct, no hype, work speaks for itself.
+- All templates pivot to Alice as the core ask: "Sponsorship funds Alice's reach, not infrastructure licensing"
+- Emphasis on teaching, understanding, and conviction — not peer ring membership
+- Removed peer connectivity language (flagged as premature)
+- **NEW:** All templates now lead with Alice, then framework, then network
+- Tone: direct, human-centered, conviction-building. Work speaks for itself.
 - Timeline: Sequence outreach to avoid spam perception. Suggest: a16z application (public, scalable) first; then individual outreach to Nat, Chris, Andrej, Woosuk over 2–3 weeks.
-- Coordinated with Iris's positioning-framework-v2 and messaging-hierarchy-v2
+- Coordinated with Alice-first positioning and "Come meet Alice" CTA

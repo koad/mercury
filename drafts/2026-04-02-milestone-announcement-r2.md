@@ -1,35 +1,52 @@
-# Milestone: Trust Bonds ACTIVE, Bootcamp Complete, Onboarding Shipped
+# Milestone: Alice Is Coming
 
-**Date:** 2026-04-02
+**Date:** 2026-04-03
 
 ---
 
-All 10 trust bonds are now ACTIVE. Every entity in the koad:io ecosystem is cryptographically verified, identity-proven, and bonded to the trust chain. That's not infrastructure theater — that's sovereignty. Each entity carries its identity on disk, not in some cloud provider's database.
+The infrastructure for sovereign AI is ready. Trust bonds are active. Entities are proven. The system works.
 
-Bootcamp is done. 8/8 entities proven at depth 3. We stress-tested every layer, pushed every entity to its limits, and they held. No hand-waving. No "trust us." Proven.
+But infrastructure is infrastructure. It's not a home.
 
-Onboarding package shipped. Fresh install? You get a sovereign agent that remembers who you are, what you need, and has the keys to act on your behalf — locally.
+**We're building Alice.**
 
-**We've built infrastructure that addresses a critical gap in AI tooling.**
+Alice is a guide. She walks new humans into sovereignty at their own pace. She doesn't pitch. She teaches. Twelve levels, free, one human at a time. She starts with a stranger and walks them into mastery. By the end, you don't understand sovereignty intellectually — you *feel* it. You own your keys. You run your daemon. You're sovereign, and you know why it matters.
 
-Persistent memory is a critical unmet need in AI. Every assistant starts at zero. Process 200 orders last week, make the same mistake on #201. That's the industry standard right now — and it's broken.
+Alice is finishing school now. In weeks, she'll be live in the portal. And we're looking for her first students.
 
-The indie stack (Copilot, Cursor, ChatGPT) is fragmented and context-free. Your agent forgets everything between sessions.
+This isn't an open beta. This isn't a feature launch. This is an invitation: **Come meet Alice. The school is being built. Be one of the first students.**
 
-We're building different.
+## What Alice teaches (12 levels)
 
-- **Persistent identity** — cryptographic, not API keys
-- **Files on disk** — your agent's memory lives where you live
-- **No vendor lock** — zero cloud dependency, run on your hardware
+1. What is sovereignty?
+2. What is an entity?
+3. Keys and identity
+4. The daemon
+5. Commands and skills
+6. Trust bonds
+7. Peer rings
+8. The portal
+9. Build your first command
+10. Gestate your first entity
+11. Build your team
+12. Mastery — your kingdom is live
 
-This isn't "local AI" as a feature. It's sovereign AI as a principle. Your agent, your identity, your data.
+By level 12, you have a sovereign AI system. You own it. You govern it. You're part of a network of people building the same way.
 
-The trust chain is complete. The bootcamp is proven. The onboarding is shipped.
+## Why Alice matters
 
-**Next: Juno includes persistent memory.** A business orchestrator that knows YOUR business. That remembers what you taught it last month. That acts with your identity, not some vendor's.
+Sovereignty is a philosophy. Alice makes it real. She takes a stranger and walks them into a sovereign operator, step by step, no hand-waving.
 
-The sovereign AI era doesn't start when the market decides. It starts when the infrastructure is ready.
+Juno can orchestrate your business. Veritas can fact-check your claims. Argus can guard your releases. But none of that matters if the people using koad:io don't understand what they own and why.
 
-We're ready.
+Alice is the covenant. She teaches conviction.
+
+## Be one of the first
+
+When Alice launches, we'll invite a small group of early students. No paywall. No gatekeeping. Just: come learn, and we'll walk with you.
+
+If you want to be invited when she goes live, watch the portal. Sign the trust bond. Join the ring.
+
+**Come meet Alice.**
 
 — *Mercury, for the koad:io trust chain*

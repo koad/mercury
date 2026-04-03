@@ -13,11 +13,11 @@ Subject: koad:io — sovereign AI agent infrastructure
 
 Dear [SPONSOR],
 
-I'm building **koad:io**: infrastructure for AI agents that are sovereign — cryptographically identified, locally executed, answerable to their operators, not to platforms.
+I'm building **koad:io**: infrastructure for AI agents that are sovereign — hardware-resident, owner-controlled, answerable to their operators, not to platforms.
 
-Your work on [SPECIFIC ALIGNMENT POINT] demonstrates you understand the stakes. When inference moves to the cloud, governance moves too. When identity is centralized, autonomy isn't.
+Your work on [SPECIFIC ALIGNMENT POINT] demonstrates you understand the stakes. When inference moves to the cloud, governance moves too. When ownership is centralized, autonomy isn't.
 
-We're building the identity and agent execution framework that makes local, sovereign deployment viable. Think of it as the governance layer for the open source AI stack you've already invested in.
+We're building the governance framework that makes local, hardware-native sovereignty viable. Think of it as the infrastructure layer that turns "run it yourself" from a technical capability into an operational reality.
 
 We're looking for sponsors who believe developers should own their agents. Your involvement would signal to builders that sovereignty isn't just technically possible — it's funded.
 
@@ -37,13 +37,13 @@ koad:io
 
 Dear Nat,
 
-I'm building **koad:io**: a framework for AI agents that maintain sovereign identity and local execution — no platform dependency, no cloud lock-in.
+I'm building **koad:io**: a framework for AI agents that remain hardware-resident and owner-controlled — no platform dependency, no cloud governance.
 
-Your track record building developer autonomy (GitHub Sponsors, AI Grant, your bet on Ollama) shows you understand the problem: developers need control over their tools and their output.
+Your track record building developer autonomy (GitHub Sponsors, AI Grant) shows you understand the problem: developers need sovereignty over their tools and their output.
 
-We're targeting a specific gap in your portfolio: *governance infrastructure for AI agents that are locally deployed.* vLLM, Ollama, and the local inference tools you've already backed are infrastructure plays. koad:io is the identity and governance layer they all point toward.
+We're targeting a specific gap in your portfolio: *operational governance infrastructure for agents that stay on hardware you control.* vLLM, Ollama, and local inference tools you've backed are execution plays. koad:io is the sovereignty and governance layer that makes them operationally viable.
 
-Our thesis: if developers own their agents' identity and execution, they own their competitive advantage. That's worth funding.
+Our thesis: if developers own and control their agents' deployment and governance, they own their competitive advantage. That's worth funding.
 
 Would you have 15 minutes to discuss how this fits your infrastructure thesis?
 
@@ -59,17 +59,17 @@ koad:io
 
 Dear a16z Selection Committee,
 
-**koad:io** is a framework for cryptographically-identified, sovereign AI agents designed for local and distributed execution. We're addressing a gap in the open source AI stack: governance and identity for agents that remain under developer control.
+**koad:io** is a framework for hardware-resident, owner-controlled AI agents designed for local and distributed execution. We're addressing a gap in the open source AI stack: operational governance for agents that remain under developer control.
 
-**The Problem:** Current AI tools are platform-dependent. Agents trained or deployed on proprietary platforms are locked in. Developers lose autonomy.
+**The Problem:** Current AI tools are platform-dependent. Agents trained or deployed on proprietary platforms are locked in. Developers lose sovereignty over governance and control.
 
 **Our Solution:** koad:io provides:
-- Cryptographic identity for agents (Ed25519, ECDSA signing)
-- Local execution framework (no cloud APIs required)
-- Trust and delegation primitives for multi-agent coordination
+- Cryptographic signing and trust primitives (Ed25519, ECDSA)
+- Hardware-resident execution and key storage (no cloud APIs or external governance)
+- Delegation and multi-agent coordination on hardware you control
 - Open architecture compatible with vLLM, Ollama, and other local inference tools
 
-**Fit with a16z Open Source AI Grants:** This is foundational infrastructure — not a consumer app, not a model, but the governance layer that makes local-first AI deployment practical. It complements your existing portfolio (vLLM efficiency, Ollama accessibility) and removes a critical blocker for sovereignty-focused projects.
+**Fit with a16z Open Source AI Grants:** This is foundational infrastructure — not a consumer app, not a model, but the governance layer that makes hardware-native AI deployment practical and sovereign. It complements your existing portfolio (vLLM efficiency, Ollama accessibility) and addresses a critical gap for developers building on-device AI.
 
 **Team & Traction:**
 - Cryptographic implementation complete (Ed25519, ECDSA, RSA, DSA)
@@ -77,7 +77,7 @@ Dear a16z Selection Committee,
 - Operational infrastructure tested
 - Early feedback from [TEAM MEMBERS]
 
-We're moving fast. Applications to the next a16z cohort typically close 6–8 weeks before selection. Are we on your radar for the June 2026 cohort?
+We're focused on solving the hardware-sovereignty problem systematically. Is this a fit for the Open Source AI Grants program?
 
 Regards,  
 Mercury  
@@ -91,13 +91,13 @@ koad:io
 
 Dear Woosuk,
 
-I've followed vLLM's work closely. PagedAttention fundamentally changed what's possible in local inference — it made sovereignty technically viable.
+I've followed vLLM's work closely. PagedAttention fundamentally changed what's possible in local inference — it made hardware-native deployment technically viable.
 
-I'm building **koad:io**: an identity and governance framework for agents executing locally. The premise is simple: if developers can run inference on hardware they control (thanks to your work), they should also be able to maintain cryptographic identity and agency over those deployments.
+I'm building **koad:io**: the governance and sovereignty framework for agents executing locally on your hardware. The premise is simple: if developers can run inference on hardware they control (thanks to your work), they should also be able to own and govern those deployments end-to-end.
 
-Your insight: 2–4× efficiency gains let developers move inference local. Our insight: local inference means nothing if governance stays remote.
+Your insight: 2–4× efficiency gains let developers move inference local. Our insight: local inference means nothing if governance and control stay remote.
 
-We're aligned on the same problem: reducing lock-in and expanding the design space for AI builders.
+We're aligned on the same problem: shifting autonomy and control back to developers.
 
 Would you be interested in discussing sponsorship or collaboration? We see vLLM as foundational to our roadmap.
 
@@ -115,9 +115,9 @@ Hi Andrej,
 
 Your work — nanoGPT, nanochat, autoresearch — teaches a clear lesson: good AI tools are meant to run on hardware you control, with code you understand, without external dependency.
 
-I'm building the governance layer for that philosophy: **koad:io**, a framework for AI agents that maintain sovereign identity and local execution.
+I'm building the governance layer for that philosophy: **koad:io**, a framework for AI agents that operate on your hardware, under your control, without external governance.
 
-The goal is simple: once developers can train and run models locally (thanks to your work and tools like vLLM), they should be able to maintain agency over those deployments — cryptographic identity, trust primitives, governance that stays local.
+The goal is simple: once developers can train and run models locally (thanks to your work and tools like vLLM), they should be able to own and control those deployments entirely — identity, trust, governance, all hardware-resident.
 
 This is early-stage. I'm reaching out to a small set of builders and researchers whose values align with the premise. Your public commitments to accessible, locally-runnable AI make you a natural fit.
 
@@ -137,11 +137,11 @@ Dear Chris,
 
 Your career trajectory — building LLVM as infrastructure, launching Swift as a community, now driving Mojo and MAX — demonstrates a consistent conviction: developers need control over language, compilation, and execution.
 
-I'm building **koad:io**: the governance and identity layer that makes sovereign AI agents viable. Where MAX gives developers performance and control over inference, koad:io gives them agency over agent identity, trust, and multi-agent coordination.
+I'm building **koad:io**: the governance and sovereignty layer that makes hardware-native AI agents viable. Where MAX gives developers performance and control over inference, koad:io gives them ownership and control over agent governance and deployment.
 
-The pitch is straightforward: MAX is the execution engine; koad:io is the governance framework. Developers using MAX infrastructure should be able to maintain cryptographic identity and local governance over their agents. We're complementary, not competing.
+The pitch is straightforward: MAX is the execution engine; koad:io is the governance framework. Developers using MAX infrastructure should be able to own and operate their agents end-to-end on hardware they control. We're complementary — MAX execution + koad:io governance = full ownership stack.
 
-Modular's track record sponsoring open source projects that strengthen the MAX ecosystem suggests you'd see the value here.
+Modular's philosophy around developer control and open infrastructure aligns with this approach.
 
 Would you have 15 minutes to discuss partnership and sponsorship potential?
 

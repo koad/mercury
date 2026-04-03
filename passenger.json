@@ -3,5 +3,9 @@
   "name": "Mercury",
   "role": "content publisher",
   "avatar": "avatar.png",
-  "buttons": []
+  "buttons": [
+    { "label": "Draft", "action": "draft", "description": "Draft a new post" },
+    { "label": "Schedule", "action": "schedule", "description": "View publish schedule" },
+    { "label": "Argus Gate", "action": "gate", "description": "Request publish approval" }
+  ]
 }

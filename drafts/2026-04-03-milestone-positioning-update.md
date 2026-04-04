@@ -14,6 +14,8 @@ The infrastructure for sovereign AI is ready. Trust bonds are active. Entities a
 
 ## Integration Notes
 
+**Positioning note (v2):** Lead with peer governance (trust bonds on your hardware, no platform mediates), Alice teaching layer (12-level curriculum, conviction bundled with tooling), and observable team in production. Do not lead with 'unique cryptographic identity' or 'unique git-native state' — competitors have shipped these. Phase 1 framed as targeting Q2 2026.
+
 - **Tone:** Direct. Narrative-driven. Lead with the human story (Alice), then validate with infrastructure, then invite action.
 - **Length:** ~110 words — expandable for long-form, condensable for Twitter thread.
 - **Positioning arc:** Layer 1 (Alice teaches) → Layer 2 (infrastructure proves) → Layer 3 (portal welcomes).

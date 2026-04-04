@@ -95,7 +95,7 @@ Even worse: **most developers don't understand what they should own.** The indus
 
 1. **koad:io (Framework):** Sovereignty infrastructure.
    - Your entity runs on your hardware
-   - Cryptographic identity and trust (Ed25519, ECDSA)
+   - Cryptographic identity and trust (Ed25519, ECDSA) — hardware-resident, no cloud mediation
    - Hardware-resident keys (no cloud)
    - Compatible with vLLM, Ollama, local inference
 

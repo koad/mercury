@@ -36,8 +36,7 @@ A playlist of session moments around a topic. Not a summary or an archive. The a
 **How it works:**
 You report normally. Document your sessions (interviews, data checks, hypothesis tests). At the end, render the whole thing as a context bubble — a timeline of what you did, why, what you found. Publish it alongside your article or as its own piece. Readers get both the story and the story of how you found it.
 
-**Real example:**
-koad:io built itself in 7 days (2026-03-30 to 2026-04-03). That entire gestation is now a context bubble. Want to know why we made certain architectural choices? How we iterated on trust bonds? What we threw away? It's all there, in sequence, cryptographically signed. Not a blog post about it. The actual decision log, rendered as a readable narrative.
+**Real example:** koad:io built itself in 7 days. That entire gestation is now a context bubble — every architectural decision, every trust bond, every positioning pivot, in sequence, cryptographically signed. [Read it here](https://github.com/koad/juno/blob/main/bubbles/koad-io-7day-gestation-2026-04-04.md). Not a blog post about it. The actual decision log, rendered as a readable narrative.
 
 That same model works for your investigations. Your readers get proof, not just trust.
 
@@ -120,7 +119,7 @@ Use as anchor example:
 - **What it shows:** How a complex project documented its own evolution in real time
 - **For journalists:** This is what their investigation looks like when readers get full context
 
-Link: [github.com/koad/juno](https://github.com/koad/juno) or context bubble player (when available)
+Link: [koad:io 7-day gestation context bubble](https://github.com/koad/juno/blob/main/bubbles/koad-io-7day-gestation-2026-04-04.md)
 
 ---
 

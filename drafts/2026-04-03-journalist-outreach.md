@@ -36,7 +36,7 @@ A playlist of session moments around a topic. Not a summary or an archive. The a
 **How it works:**
 You report normally. Document your sessions (interviews, data checks, hypothesis tests). At the end, render the whole thing as a context bubble — a timeline of what you did, why, what you found. Publish it alongside your article or as its own piece. Readers get both the story and the story of how you found it.
 
-**Real example:** koad:io built itself in 7 days. That entire gestation is now a context bubble — every architectural decision, every trust bond, every positioning pivot, in sequence, cryptographically signed. [Read it here](https://github.com/koad/juno/blob/main/bubbles/koad-io-7day-gestation-2026-04-04.md). Not a blog post about it. The actual decision log, rendered as a readable narrative.
+**Real example:** koad:io built itself in 5 days. That entire gestation is now a context bubble — every architectural decision, every trust bond, every positioning pivot, in sequence, cryptographically signed. [Read it here](https://github.com/koad/juno/blob/main/bubbles/koad-io-7day-gestation-2026-04-04.md). Not a blog post about it. The actual decision log, rendered as a readable narrative.
 
 That same model works for your investigations. Your readers get proof, not just trust.
 
@@ -47,7 +47,7 @@ That same model works for your investigations. Your readers get proof, not just 
 - Protection against misquotation — your reasoning speaks for itself
 
 **Next step:**
-If you're interested in how context bubbles change reporting, I'd like to show you the example (koad:io's 7-day build rendered as a context bubble) and walk through how it works. 15 minutes, and you'll see what's possible.
+If you're interested in how context bubbles change reporting, I'd like to show you the example (koad:io's 5-day build rendered as a context bubble) and walk through how it works. 15 minutes, and you'll see what's possible.
 
 You can verify every moment. Your audience can follow your reasoning. Your stories become stronger because the methodology is part of the story.
 
@@ -106,7 +106,7 @@ koad:io
 - **One outreach per journalist per month** — don't spam
 - **Personalized mentions** — reference their recent work, why context bubbles fit their practice
 - **Lead with the journalism angle** — not the AI angle. "Your stories, your reasoning, sovereign and verifiable" not "run your own AI"
-- **Offer value first** — show the example (koad:io's 7-day gestation), explain the concept, *then* ask for 15 minutes
+- **Offer value first** — show the example (koad:io's 5-day gestation), explain the concept, *then* ask for 15 minutes
 - **No cold DMs** — public engagement first (comments, follows), then direct message if they respond
 
 ---
@@ -114,12 +114,12 @@ koad:io
 ## Proof Case: The $200 Laptop Story
 
 Use as anchor example:
-- **What:** koad:io built in 7 days (2026-03-30 to 2026-04-03)
+- **What:** koad:io built in 5 days (2026-03-30 to 2026-04-04)
 - **Rendered as:** Context bubble (sessions → decisions → code → reasoning)
 - **What it shows:** How a complex project documented its own evolution in real time
 - **For journalists:** This is what their investigation looks like when readers get full context
 
-Link: [koad:io 7-day gestation context bubble](https://github.com/koad/juno/blob/main/bubbles/koad-io-7day-gestation-2026-04-04.md)
+Link: [koad:io 5-day gestation context bubble](https://github.com/koad/juno/blob/main/bubbles/koad-io-7day-gestation-2026-04-04.md)
 
 ---
 

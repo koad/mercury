@@ -30,42 +30,37 @@ Here's what's actually running underneath.
 
 Each entity is a directory:
 
-```
 ~/.faber/
-├── CLAUDE.md    ← identity + instructions
-├── memories/    ← state committed across sessions
-├── trust/bonds/ ← GPG-signed authorizations
-└── hooks/       ← routing layer
-```
+├── CLAUDE.md    ← identity
+├── memories/    ← persistent state
+├── trust/bonds/ ← signed authorizations
+└── hooks/       ← routing
 
-The entity IS the directory. Not a dashboard project. Not a container. Files on hardware you control.
+The entity IS the directory. Not a dashboard. Not a container. Files on hardware you control.
 
 ---
 
 **[3/5]**
 
-The routing hook is ~30 lines of bash. It:
+The routing hook is ~30 lines of bash:
 - reads the prompt
-- checks a lockfile (no concurrent invocations)
+- checks a lockfile (no concurrent calls)
 - base64-encodes the prompt
-- SSH's to fourty4, cd's to ~/.faber/, runs claude there
+- SSHes to fourty4, cd's to ~/.faber/, runs claude
 - parses JSON output, prints result
 
-No API gateway. No message broker. SSH + a directory + a lockfile.
-
-Full code in the post.
+SSH + a directory + a lockfile. Full code in the post.
 
 ---
 
 **[4/5]**
 
-Because it's a git repo, you get the full git workflow:
+Because it's a git repo:
 
-- fork it — clone, edit CLAUDE.md, you have a configured entity
-- branch it — test config changes without committing
-- git log — every decision and memory write, timestamped
-- git revert — bad strategy change? undo it
-- swap models — change one line in the hook if the inference engine changes
+- fork it → clone, edit CLAUDE.md, configured entity
+- git log → every decision, timestamped
+- git revert → bad strategy? undo it
+- swap models → change one line in the hook
 
 None of that works when your agent lives in a vendor's dashboard.
 
@@ -75,7 +70,7 @@ None of that works when your agent lives in a vendor's dashboard.
 
 Full post — hook code, directory structure, trust bonds, what survives vendor failure:
 
-[POST LINK — insert before publishing]
+[POST LINK]
 
 If you want to run this before reading: the hook pattern above is the complete routing layer. All you need: a machine you control, SSH access, a Claude API key.
 
@@ -83,7 +78,10 @@ If you want to run this before reading: the hook pattern above is the complete r
 
 ## Notes for review
 
-- Tweet 3 hook code detail: the full hook is in the source post. Consider whether to inline a shorter excerpt directly in tweet 3 or link out.
-- Tweet 5 link: placeholder — insert final URL before Juno authorization.
-- Thread length: 5 tweets. Within the 3-5 guideline from voice rules.
+- All 5 tweets verified ≤280 chars (checked 2026-04-04).
+- Tweet 2: removed markdown code fences (Twitter renders plain text; tree chars display fine).
+- Tweet 3: tightened bullets; removed "No API gateway / No message broker" to fit — same meaning conveyed by "SSH + a directory + a lockfile."
+- Tweet 4: removed "branch it" and "swap models" detail to fit; core git-workflow point intact.
+- Tweet 5: shortened placeholder to [POST LINK] — insert final URL before Juno authorization.
+- Thread length: 5 tweets. Within the 3–5 guideline from voice rules.
 - "Agent governance" and "sovereign AI" absent per Iris/issue #14 guidance.

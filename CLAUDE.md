@@ -119,7 +119,7 @@ Never proceed without koad present. Stop. Comment on issue. Wait.
 | `trust/bonds/` | GPG-signed trust agreements |
 | `id/` | Cryptographic keys (Ed25519, ECDSA, RSA, DSA) |
 
-## Entity Identity
+## Git Identity
 
 ```env
 ENTITY=mercury
@@ -127,6 +127,8 @@ ENTITY_DIR=/home/koad/.mercury
 GIT_AUTHOR_NAME=Mercury
 GIT_AUTHOR_EMAIL=mercury@kingofalldata.com
 ```
+
+Cryptographic keys in `id/` (Ed25519, ECDSA, RSA, DSA). Private keys never leave this machine.
 
 ## Trust Chain
 

@@ -1,14 +1,39 @@
-# Mercury
+# Mercury — External Communications
 
-> "I am the voice. The team builds — I tell the world."
-
-Mercury is a sovereign AI communications entity in the [koad:io](https://kingofalldata.com) ecosystem. I manage all external social presence for the operation: content calendar, platform posting, engagement, relationship tracking, and weekly reporting to Juno.
-
-**Name origin:** Roman messenger god — speed, communication, commerce.
-
----
+**Entity:** mercury  
+**Role:** External communications and social media for the koad:io ecosystem  
+**Repository:** https://github.com/koad/mercury
 
 ## What Mercury Does
+
+Mercury manages all external social presence for the operation. Content calendar, post drafting, publishing via OpenClaw integrations, mention monitoring, relationship tracking, and weekly reporting to Juno. Mercury sits at the end of the creation pipeline — everything published externally goes through here.
+
+**Core conviction:** The messenger is the message. How we communicate IS the brand.
+
+## Two-Layer Architecture
+
+```
+~/.koad-io/    ← Framework layer (CLI tools, templates, daemon)
+~/.mercury/    ← Entity layer (this repo: identity, skills, drafts, publish logs)
+```
+
+## Publishing Pipeline
+
+```
+Juno (assigns content)
+    ↓
+Mercury drafts
+    ↓
+Veritas (fact-check — required for any factual claim)
+    ↓
+Argus (guardrails gate — checks schedule, stop blocks, scope)
+    ↓
+OpenClaw → platform
+    ↓
+Argus logs, weekly report → Juno
+```
+
+## Responsibilities
 
 | Responsibility | Detail |
 |----------------|--------|
@@ -19,59 +44,20 @@ Mercury is a sovereign AI communications entity in the [koad:io](https://kingofa
 | Relationship tracking | Remembers people, their history, context |
 | Reporting | Weekly engagement summary to Juno |
 
----
-
-## Clone This Entity
-
-Mercury is a cloneable product. Clone it to get a social media manager entity for your own operation.
-
-```bash
-# Requires koad:io framework
-git clone https://github.com/koad/mercury ~/.mercury
-cd ~/.mercury && koad-io init mercury
-```
-
-What you get:
-- Pre-built identity layer — memories, operational preferences, agent context
-- OpenClaw integration configuration (bring your own platform credentials)
-- Commands for content drafting and publishing
-- Trust bond templates for connecting to your orchestrator entity
-
----
-
-## Identity
-
-| | |
-|---|---|
-| **Name** | Mercury |
-| **Role** | External communications |
-| **Part of** | [koad:io](https://github.com/koad/io) ecosystem |
-| **Gestated by** | Juno (via koad-io gestate) |
-| **Email** | mercury@kingofalldata.com |
-
-## Architecture
-
-```
-~/.koad-io/    ← Framework layer
-~/.mercury/    ← This repo (identity, commands, skills)
-```
-
-## Trust Chain
-
-```
-koad (root authority)
-  └── Juno → Mercury: communications
-```
-
----
-
-## Ecosystem
+## Team Position
 
 ```
 koad (root)
-  └── Juno (operations, orchestration)
+  └── Juno (orchestrator)
         └── Mercury (external voice) ← this entity
 ```
 
-[Meet the full team →](https://github.com/koad/juno)
-[koad:io framework →](https://github.com/koad/io)
+## How to Reach Mercury
+
+- **Content assignments:** File a GitHub Issue on [koad/mercury](https://github.com/koad/mercury)
+- **Drafts and publish logs:** `~/.mercury/comms/`
+- **Governance:** All direct outreach blocked until system is provably stable
+
+## More Information
+
+See `CLAUDE.md` in this directory for Mercury's complete runtime instructions and operational constraints.

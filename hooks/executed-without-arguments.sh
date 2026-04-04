@@ -20,9 +20,9 @@ fi
 
 if [ -n "$PROMPT" ]; then
   # Non-interactive: send task, return only the result (JSON format — no tool echoes)
-  ssh "$MERCURY_HOST" "$NVM_INIT && cd $MERCURY_DIR && claude --dangerously-skip-permissions -c --output-format=json -p '$PROMPT' 2>/dev/null" \
+  ssh "$MERCURY_HOST" "$NVM_INIT && cd $MERCURY_DIR && claude --model sonnet --dangerously-skip-permissions -c --output-format=json -p '$PROMPT' 2>/dev/null" \
     | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('result',''))"
 else
   # Interactive: open live terminal portal to Mercury on fourty4
-  exec ssh -t "$MERCURY_HOST" "$NVM_INIT && cd $MERCURY_DIR && claude --dangerously-skip-permissions -c"
+  exec ssh -t "$MERCURY_HOST" "$NVM_INIT && cd $MERCURY_DIR && claude --model sonnet --dangerously-skip-permissions -c"
 fi

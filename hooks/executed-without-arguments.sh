@@ -10,7 +10,7 @@ set -euo pipefail
 
 MERCURY_HOST="fourty4"
 MERCURY_DIR="\$HOME/.mercury"
-NVM_INIT="source \$HOME/.nvm/nvm.sh && nvm use 24 --silent"
+NVM_INIT="source \$HOME/.nvm/nvm.sh && nvm use 24 --silent && export PATH=/opt/homebrew/bin:\$PATH"
 
 PROMPT="${PROMPT:-}"
 if [ -z "$PROMPT" ] && [ ! -t 0 ]; then

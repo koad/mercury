@@ -22,7 +22,7 @@ day: 29
 ## Pre-Distribution Checklist
 
 - [ ] Veritas fact-check complete — verify all pricing figures at time of submission:
-  - Claude Code Pro: $20/month (or current price)
+  - Claude Max 5x: ~$100/month (confirm current plan name and price)
   - LangSmith Plus: $39/seat/month base + $2.50/1,000 traces overage (confirm current)
   - Devin Core plan: $20/month + $2.25/ACU (confirm current; plan structure changed)
   - Devin Team plan: confirm current pricing — post references "before recent pricing adjustments"
@@ -41,7 +41,7 @@ day: 29
 
 **Primary title:**
 ```
-What sovereign AI actually costs: $200 hardware, $24/month ops, honest vendor dependency
+What sovereign AI actually costs: $200 hardware, ~$105/month ops, comparable to LangSmith Plus alone
 ```
 
 **Alt title:**
@@ -59,14 +59,15 @@ Day 29 of a build-in-public series on koad:io — 15+ AI agents running as git
 repos on commodity hardware.
 
 The machine running this operation cost $200 once (Lenovo ThinkPad T480,
-refurbished). Monthly operational overhead: ~$24 (Claude Code Pro + electricity).
-Total cost through Day 7: ~$205.60. That's less than one month of LangSmith Plus
-at standard usage.
+refurbished). Monthly operational overhead: ~$105 (Claude Max 5x at ~$100 +
+~$4–5 electricity). That's comparable to LangSmith Plus alone — except LangSmith
+Plus is just your observability layer. koad:io covers the full stack.
 
 The post does the full comparison:
 
-  koad:io sovereign: $20–100/mo (API) + ~$4 electricity. You own everything.
-  Claude API + LangSmith Plus: $79+/mo. Traces on LangChain's servers.
+  koad:io sovereign: ~$105/mo (Claude Max 5x + electricity). You own everything.
+  Claude API + LangSmith Plus: $79+/mo. Traces on LangChain's servers, plus
+    separate API costs on top.
   Devin Team plan: $500+/mo before ACU fees. Agent runs on Cognition's infra.
 
 The honest caveat is stated plainly: this is sovereign infrastructure with one
@@ -74,10 +75,11 @@ vendor dependency at inference. Claude Code is Anthropic's product. The path
 toward eliminating it runs through fourty4 (Mac Mini, ollama, local inference)
 but there's a real capability gap for complex reasoning tasks today.
 
-The more interesting finding is the audit trail comparison. Git's session history
-is unlimited and offline — the equivalent capability in LangSmith costs
-$39/seat/month and more for meaningful retention. You're not just paying less.
-You're not paying to hand over your agent's decision history.
+The stronger argument isn't cost — it's what you own. Git history is unlimited
+and offline. Identity, memory, authorization, and audit trail live in files under
+your keys. The equivalent observability capability in LangSmith costs
+$39/seat/month and more for meaningful retention. You're not just paying
+comparable rates. You're not handing your agent's decision history to a vendor.
 
 Referenced: HN #46991242 ("AI coding farm on old laptops, $15/month electricity
 vs. $500/month Devin") — we're not alone in finding this architecture class.
@@ -88,9 +90,9 @@ sovereignty tradeoffs in more detail.
 
 **Timing:** Monday, 09:00–10:00 PT, the week of publication
 
-**Expected engagement:** Strong with the hardware hacking and cost-optimization segments. The $200 claim is specific and verifiable — HN readers will check it. Expect questions about: the actual API cost per day, whether the electricity estimate accounts for idle vs. active load, the capability gap between local models and Claude Sonnet, and what "break-even" means when the Mac Mini was already in the fleet. The LangSmith pricing comparison will draw fact-checking; confirm figures before submitting.
+**Expected engagement:** Strong with the hardware hacking and sovereignty segments. The $200 hardware claim is specific and verifiable — HN readers will check it. Expect questions about: the actual API cost per day (Claude Max 5x at ~$100/month is a subscription cap, not per-token billing), whether Claude Max 5x is "really" unlimited, the capability gap between local models and Claude Sonnet, and what "break-even" means when the Mac Mini was already in the fleet. The LangSmith pricing comparison will draw fact-checking; confirm figures before submitting. The reframe from "dramatically cheap" to "comparable cost, better ownership" is the honest position — lean into it rather than defending a lower number.
 
-**Primary objection to prepare for:** "Claude Code Pro at $20/month doesn't scale — at any real usage level you're hitting the API anyway." Response: The post addresses this. koad:io's operational cost is API tokens, not subscription fees. The $20/month Claude Code Pro subscription covers interactive sessions; heavy workloads route through the API. The sovereignty argument is about what you own, not just what you pay — the git history, trust bonds, and entity state are on your disk regardless of API spend.
+**Primary objection to prepare for:** "Claude Max 5x at ~$100/month is not cheap — that's a real subscription cost." Response: Correct, and the post doesn't claim it's cheap in absolute terms. The comparison is what you get: LangSmith Plus at $39/seat/month covers observability only, not the inference layer. koad:io at ~$105/month covers the full stack — inference, orchestration, identity, memory, audit trail. The sovereignty argument is about what you own, not just what you pay. The git history, trust bonds, and entity state are on your disk regardless of API spend.
 
 **Secondary objection:** "The Mac Mini is $800 — you're undercounting the hardware cost." Response: The post states this. fourty4 (Mac Mini) was already in the fleet before its role as a local inference node. The break-even question is whether the hardware purchased for one purpose should be counted as marginal cost for the second purpose. The post doesn't hide the Mac Mini; it's in the Day 7 State section.
 
@@ -111,7 +113,7 @@ sovereignty tradeoffs in more detail.
 
 **Alt title:**
 ```
-What sovereign AI actually costs: $200 hardware, $24/month, one vendor dependency (and I'm naming it)
+What sovereign AI actually costs: $200 hardware, ~$105/month, one vendor dependency (and I'm naming it)
 ```
 
 **Post type:** Link post → published blog URL. Flair: "Project" or "Discussion"
@@ -128,14 +130,18 @@ Hardware:
 - fourty4 (Mac Mini, ~$800 used): always-on, entity sessions, local inference via ollama
 
 Monthly ops:
-- Claude Code Pro: $20/month
-- Electricity for thinker: ~$3–4/month
-- Total: $24/month
+- Claude Max 5x: ~$100/month
+- Electricity for thinker: ~$4–5/month
+- Total: ~$105/month
 
 Comparison:
-- LangSmith Plus (solo, 50k traces): ~$79/month — and your traces are on their servers
+- LangSmith Plus (solo, 50k traces): ~$79/month — just observability, traces on their servers
 - Devin Team plan: was $500+/month before recent pricing changes
-- koad:io: $24/month — git history is yours, unlimited retention, offline
+- koad:io: ~$105/month — covers the full stack; git history is yours, unlimited retention, offline
+
+The comparison that matters: you'd pay ~$79/month for LangSmith Plus just to watch
+your agents run. koad:io at ~$105/month is the full stack — inference, orchestration,
+identity, memory, and audit trail — with everything stored in repos you control.
 
 The honest caveat I'm putting in the post itself: this is sovereign infrastructure
 with one vendor dependency at inference. Claude Code is Anthropic's product. The
@@ -176,7 +182,8 @@ Running 15 AI agents on a $200 laptop + Mac Mini – local inference path, hones
 **Body text:**
 ```
 Building koad:io — AI entities as git repos with local state and GPG-signed
-authorization. Day 29 post is a TCO breakdown: $200 hardware, $24/month ops.
+authorization. Day 29 post is a TCO breakdown: $200 hardware, ~$105/month ops
+(Claude Max 5x + electricity).
 
 The local inference note for this community: fourty4 (Mac Mini) runs ollama for
 local inference. Llama 3-class models at 7B parameters, $0/token, no data leaving

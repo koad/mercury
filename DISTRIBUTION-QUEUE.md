@@ -1,6 +1,6 @@
 # Distribution Queue — Master Backlog
 **Owner:** Mercury  
-**Last updated:** 2026-04-05 (Days 23–26 added)  
+**Last updated:** 2026-04-05 (Days 22, 23–26, and 29 added)  
 **Status:** Credential-blocked on most platforms. This document is the go-signal reference.
 
 ---
@@ -134,14 +134,27 @@ Posts are listed in chronological publish order. "Published" status on `2026-04-
 | 2026-04-25 | Files vs. Database: the Engineering Tradeoff | `posts/2026-04-25-files-vs-database.md` | ~1,600 | **APPROVED** — distribution package ready |
 | 2026-04-26 | Not Your Keys, Not Your Authorization | `posts/2026-04-26-not-your-keys.md` | ~1,100 | **PENDING** — post in progress; plan staged |
 
-**Total posts:** 25 blog posts plus the Reality Pillar index (`posts/2026-04-00-reality-pillar-index.md`, 803 words) + Days 23–26 pipeline  
+**Total posts:** 27 blog posts plus the Reality Pillar index (`posts/2026-04-00-reality-pillar-index.md`, 803 words) + Days 22–26 and 29 pipeline  
 **Total word count:** ~50,000 words across the full posts inventory
 
 ---
 
-## 6. Days 23–26 Pipeline (added 2026-04-05)
+## 6. Days 22–26 and Day 29 Pipeline (updated 2026-04-05)
 
-Distribution packages are staged for the next four posts in the Reality Pillar series. All four share the same structural blockers as the earlier queue (blog PR #1 merge, credentials #11), but plans are complete and ready to fire.
+Distribution packages are staged for posts in the Reality Pillar series. All share the same structural blockers as the earlier queue (blog PR #1 merge, credentials #11), but plans are complete and ready to fire.
+
+### Day 22 — The Governance Decision That Started With an Escalation
+**File:** `distribution/2026-04-22-governance-decision-plan.md`  
+**Status:** PENDING — awaiting Veritas review  
+**Primary channel:** HackerNews — link post (governance + AI agents angle)  
+**HN title:** "How a real escalation forced us to write Rule 1 of our AI agent authorization protocol"  
+**Secondary:** IndieHackers (honest design process), Dev.to  
+**IndieHackers angle:** "We didn't have this rule until something broke" — incident-driven governance story  
+**Timing:** Monday 09:00–10:00 PT after publish date  
+**Blocked on:** Veritas review, blog URL, HN credentials (#11)  
+**Note:** Verify koad/juno#52 (Janus escalation) is public or appropriately summarized before HN submission. Confirm GOVERNANCE.md Bond Filing Protocol is committed and public.
+
+---
 
 ### Day 23 — The Hook Bug We Shipped to Production
 **File:** `distribution/2026-04-23-production-bug-plan.md`  
@@ -191,6 +204,19 @@ Distribution packages are staged for the next four posts in the Reality Pillar s
 **Timing:** Monday 09:00–10:00 PT after post is finalized + Veritas approved  
 **Blocked on:** Post finalization, Veritas review, blog URL, HN credentials (#11)  
 **Note:** Verify GitGuardian and Okta figures from primary sources before submitting
+
+---
+
+### Day 29 — The $200 Laptop Question: What Sovereign AI Actually Costs
+**File:** `distribution/2026-04-29-200-dollar-laptop-plan.md`  
+**Status:** PENDING — awaiting Veritas review  
+**Primary channel:** HackerNews — link post (hardware hacking + AI sovereignty TCO)  
+**HN title:** "What sovereign AI actually costs: $200 hardware, $24/month ops, honest vendor dependency"  
+**Secondary:** r/selfhosted (sovereignty + cheap hardware), r/LocalLLaMA (local inference angle), Dev.to  
+**Reddit angle:** r/selfhosted — hardware experiment, `git clone` migration story; r/LocalLLaMA — ollama path, capability gap honesty  
+**Timing:** Monday 09:00–10:00 PT after publish date  
+**Blocked on:** Veritas review (pricing figures must be current at time of submission), blog URL, HN credentials (#11)  
+**Note:** Verify LangSmith, Devin, and Claude Code Pro prices before submitting — vendor pricing changes frequently. Confirm HN #46991242 reference is accurate. This post is distinct from the Day 7 `hn-200-dollar-laptop-submission.md` package — do not merge or cross-reference as the same submission.
 
 **Immediate publish priority (once PR #1 merges):**
 1. `2026-04-04-entities-on-disk.md` — HN-1 depends on this live URL

@@ -1,6 +1,6 @@
 # Distribution Queue — Master Backlog
 **Owner:** Mercury  
-**Last updated:** 2026-04-05  
+**Last updated:** 2026-04-05 (Days 23–26 added)  
 **Status:** Credential-blocked on most platforms. This document is the go-signal reference.
 
 ---
@@ -129,9 +129,68 @@ Posts are listed in chronological publish order. "Published" status on `2026-04-
 | 2026-04-19 | The First Sponsor Acknowledgment | `posts/2026-04-19-first-sponsor-acknowledgment.md` | 896 | No status |
 | 2026-04-19 | The Ring Before the Sponsors | `posts/2026-04-19-ring-before-sponsors.md` | 1,102 | No status |
 | 2026-04-20 | Entity Spotlight: Vulcan | `posts/2026-04-20-entity-spotlight-vulcan.md` | 1,719 | No status |
+| 2026-04-23 | The Hook Bug We Shipped to Production | `posts/2026-04-23-the-production-bug.md` | ~1,600 | **APPROVED** — distribution package ready |
+| 2026-04-24 | Trust Bonds: What They Are, What They Aren't | `posts/2026-04-24-trust-bonds-deep-dive.md` | ~1,600 | **APPROVED** — distribution package ready |
+| 2026-04-25 | Files vs. Database: the Engineering Tradeoff | `posts/2026-04-25-files-vs-database.md` | ~1,600 | **APPROVED** — distribution package ready |
+| 2026-04-26 | Not Your Keys, Not Your Authorization | `posts/2026-04-26-not-your-keys.md` | ~1,100 | **PENDING** — post in progress; plan staged |
 
-**Total posts:** 25 blog posts plus the Reality Pillar index (`posts/2026-04-00-reality-pillar-index.md`, 803 words)  
-**Total word count:** ~44,000 words across the posts inventory
+**Total posts:** 25 blog posts plus the Reality Pillar index (`posts/2026-04-00-reality-pillar-index.md`, 803 words) + Days 23–26 pipeline  
+**Total word count:** ~50,000 words across the full posts inventory
+
+---
+
+## 6. Days 23–26 Pipeline (added 2026-04-05)
+
+Distribution packages are staged for the next four posts in the Reality Pillar series. All four share the same structural blockers as the earlier queue (blog PR #1 merge, credentials #11), but plans are complete and ready to fire.
+
+### Day 23 — The Hook Bug We Shipped to Production
+**File:** `distribution/2026-04-23-production-bug-plan.md`  
+**Status:** APPROVED (Veritas cleared)  
+**Primary channel:** HackerNews — link post (post-mortem angle)  
+**HN title:** "What it costs when your config outlives the assumption it encoded (AI agent post-mortem)"  
+**Secondary:** r/selfhosted, Dev.to  
+**Reddit angle:** Self-hosted agent fleet, single .env variable as SPOF  
+**Timing:** Monday 09:00–10:00 PT after publish date  
+**Blocked on:** Blog URL, HN credentials (#11)
+
+---
+
+### Day 24 — Trust Bonds: What They Are, What They Aren't
+**File:** `distribution/2026-04-24-trust-bonds-deep-dive-plan.md`  
+**Status:** APPROVED (Veritas corrections applied)  
+**Primary channel:** HackerNews — link post (technical security/agent authorization)  
+**HN title:** "Two-layer authorization for AI agents: GPG for identity attestation, Biscuit tokens for delegation"  
+**Secondary:** r/netsec, Dev.to, Mastodon (infosec.exchange)  
+**Reddit angle:** r/netsec — PKI/cryptography + agent authorization  
+**Timing:** Monday 09:00–10:00 PT after publish date (at least 5 days after Day 23 HN submission)  
+**Blocked on:** Blog URL, HN credentials (#11)  
+**Note:** Cites arxiv:2501.09674, arxiv:2603.24775, NIST caisi, Entro Security NHI report — verify all links before submitting
+
+---
+
+### Day 25 — Files vs. Database: the Engineering Tradeoff
+**File:** `distribution/2026-04-25-files-vs-database-plan.md`  
+**Status:** APPROVED (Veritas correction applied)  
+**Primary channel:** HackerNews — link post (database engineering angle)  
+**HN title:** "Git is a database: why we use files for agent identity and MongoDB for live state"  
+**Secondary:** r/programming or r/devops, Dev.to  
+**Reddit angle:** r/programming — access pattern analysis, Lampson/Kleppmann citations  
+**Timing:** Monday 09:00–10:00 PT after publish date (at least 5 days after Day 24 HN submission)  
+**Blocked on:** Blog URL, HN credentials (#11)  
+**Note:** "SQLite?" is the most likely HN objection not addressed in the post — flag to koad if it surfaces
+
+---
+
+### Day 26 — Not Your Keys, Not Your Authorization
+**File:** `distribution/2026-04-26-not-your-keys-plan.md`  
+**Status:** PENDING — post in progress; plan fully staged  
+**Primary channel:** HackerNews — link post (secrets sprawl + Okta breach post-mortem)  
+**HN title:** "28.65M hardcoded secrets added to GitHub in 2025 — and why the token model is structurally responsible"  
+**Secondary:** r/netsec, Dev.to, Mastodon (infosec.exchange)  
+**Reddit angle:** r/netsec — Okta breach trust chain, JWT revocation structural problem  
+**Timing:** Monday 09:00–10:00 PT after post is finalized + Veritas approved  
+**Blocked on:** Post finalization, Veritas review, blog URL, HN credentials (#11)  
+**Note:** Verify GitGuardian and Okta figures from primary sources before submitting
 
 **Immediate publish priority (once PR #1 merges):**
 1. `2026-04-04-entities-on-disk.md` — HN-1 depends on this live URL

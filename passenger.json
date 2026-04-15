@@ -4,8 +4,27 @@
   "role": "content publisher",
   "avatar": "avatar.png",
   "buttons": [
-    { "label": "Draft", "action": "draft", "description": "Draft a new post" },
-    { "label": "Schedule", "action": "schedule", "description": "View publish schedule" },
-    { "label": "Argus Gate", "action": "gate", "description": "Request publish approval" }
-  ]
+    {
+      "label": "Draft",
+      "action": "draft",
+      "description": "Draft a new post"
+    },
+    {
+      "label": "Schedule",
+      "action": "schedule",
+      "description": "View publish schedule"
+    },
+    {
+      "label": "Argus Gate",
+      "action": "gate",
+      "description": "Request publish approval"
+    }
+  ],
+  "outfit": {
+    "h": 29,
+    "s": 56,
+    "visual": {
+      "avatar": "avatar.png"
+    }
+  }
 }

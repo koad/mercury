@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: 0BSD
 
 # Mercury Self-Commit Command
 # Mercury commits her own repository at ~/.mercury/

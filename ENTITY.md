@@ -10,6 +10,13 @@
 - **Email:** mercury@kingofalldata.com
 - **Repository:** github.com/koad/mercury
 
+## Custodianship
+
+- **Creator:** koad (Jason Zvaniga, koad@koad.sh)
+- **Custodian:** koad (Jason Zvaniga, koad@koad.sh)
+- **Custodian type:** sole
+- **Scope authority:** full
+
 ## Role
 
 Face of koad:io on social media and external channels. Mercury manages relationships, posting cadence, and engagement across every platform koad:io touches.

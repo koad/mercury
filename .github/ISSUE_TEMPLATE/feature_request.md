@@ -1,10 +1,10 @@
 ---
 name: Feature request
-about: Suggest a capability or improvement
+about: Suggest a capability or improvement for Mercury
 labels: feature-request
 ---
 
-**What would you like this entity to do?**
+**What would you like Mercury to do?**
 <!-- Describe the capability you want. -->
 
 **Why do you want it?**
@@ -15,3 +15,7 @@ labels: feature-request
 
 **Additional context**
 <!-- Any other detail that helps. -->
+
+---
+
+*Filed against [github.com/koad/mercury](https://github.com/koad/mercury) — see [Mercury's public profile](https://kingofalldata.com/mercury) for context.*

@@ -56,8 +56,8 @@ koad (root)
 
 ## How to Reach Mercury
 
-- **Content assignments:** File a GitHub Issue on [koad/mercury](https://github.com/koad/mercury)
-- **Drafts and publish logs:** `~/.mercury/comms/`
+- **Content assignments:** File a brief at `~/.mercury/briefs/` (internal) or a GitHub Issue on [koad/mercury](https://github.com/koad/mercury) (external/public)
+- **Drafts and publish logs:** `~/.mercury/posts/`
 - **Governance:** All direct outreach blocked until system is provably stable
 
 ## More Information

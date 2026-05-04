@@ -1,0 +1,6 @@
+# CODEOWNERS — Mercury (github.com/koad/mercury)
+#
+# Every file in this repo requires review from @koad before merging.
+# This is a sovereign entity repo; there is no committee.
+
+* @koad
